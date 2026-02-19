@@ -1,10 +1,10 @@
 #!/bin/bash
 
-LOG_DIR="$HOME/logs"
+LOG_DIR="./logs"
 ERROR_PATTERNS=("ERROR" "FATAL" "CRITICAL")
-REPORT_FILE="$HOME/logs/log_analysis_report.txt"
+REPORT_FILE="$LOG_DIR/log_analysis_report.txt"
 
-echo "Analyzing log files" > "$REPORT_FILE"
+echo "Analysing log files" > "$REPORT_FILE"
 echo "===================" >> "$REPORT_FILE"
 
 echo -e "\nList of log files updated in last 24 hours:" >> "$REPORT_FILE"
