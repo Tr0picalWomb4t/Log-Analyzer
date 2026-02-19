@@ -1,5 +1,8 @@
 # Log Analyzer
 
+⚠️ **Disclaimer:** This project is for demonstration purposes only.  
+The log files included are **fictitious**. The code works, but all logs are **fake** and provided only to test the functionality of the script.
+
 📊 **Log Analyzer** is a Bash script that scans `.log` files, counts critical errors, and generates a comprehensive text report.  
 It’s perfect for **system monitoring** and **quick log analysis** on Linux servers.
 
